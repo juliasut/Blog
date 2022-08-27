@@ -60,11 +60,11 @@ ul {
   --banner-font-family: 'Noticia Text', serif;
   --main-bg-color: #F5F5F5;
   --secondary-color: #FFE7E7;
+  --secondary-color-dark: #0C1F3F;
   --accent-color: #1044FF;
-  --accent-color-hover: #112A52;
+  --accent-color-dark: #112A52;
   --font-main-color: #333;
   --font-fade-color: rgba(51, 51, 51, 0.65);
-  --font-posts-title-color: #112A52;
   --font-fade-size: 16px;
   --font-fade-line-height: 24px;
   --font-heading-size: 73px;
@@ -106,10 +106,6 @@ main > section > ul {
   grid-gap: 1em;
 }
 
-body > footer {
-  background-color: var(--secondary-color);
-}
-
 a:hover {
-  color: var(--accent-color-hover);
+  color: var(--accent-color-dark);
 }

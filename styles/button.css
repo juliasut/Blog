@@ -16,5 +16,5 @@
 
 .button-blue:hover,
 .button-blue:focus {
-  background-color: var(--accent-color-hover);
+  background-color: var(--accent-color-dark);
 }
