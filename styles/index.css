@@ -42,7 +42,19 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* End of CSS custom reset */
 
-/* 
-font-family: 'Noticia Text', serif;
-font-family: 'Source Sans Pro', sans-serif;
-*/
+/* Declare global variables */
+
+:root {
+  --main-font-family: 'Noticia Text', serif;
+  --banner-font-family: 'Source Sans Pro', sans-serif;
+  --main-bg-color: #F5F5F5;
+  --secondary-color: #FFE7E7;
+  --accent-color: #1044FF;
+  --font-main-color: #333;
+  --font-fade-color: rgba(51, 51, 51, 0.65);
+  --font-posts-title-color: #112A52;
+  --font-fade-size: 16px;
+  --font-fade-line-height: 24px;
+  --font-heading-size: 73px;
+  --font-heading-line-height: 80px;
+}
