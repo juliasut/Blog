@@ -1,6 +1,6 @@
 @import url("aside.css");
 @import url("footer.css");
-@import url("navigation.css");
+@import url("header.css");
 @import url("post.css");
 @import url("https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&family=Source+Sans+Pro:wght@400;700&display=swap");
 
@@ -55,8 +55,8 @@ ul {
 /* Declare global variables */
 
 :root {
-  --main-font-family: 'Noticia Text', serif;
-  --banner-font-family: 'Source Sans Pro', sans-serif;
+  --main-font-family: 'Source Sans Pro', sans-serif;
+  --banner-font-family: 'Noticia Text', serif;
   --main-bg-color: #F5F5F5;
   --secondary-color: #FFE7E7;
   --accent-color: #1044FF;
@@ -74,10 +74,7 @@ ul {
 body {
   font-family: var(--main-font-family);
   background-color: var(--main-bg-color);
-}
-
-body > header {
-  background-color: var(--secondary-color);
+  font-weight: 400;
 }
 
 body > main {

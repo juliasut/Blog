@@ -1,0 +1,51 @@
+.header {
+  background-color: var(--secondary-color);
+  color: var(--accent-color);
+  padding: 0 50px;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.navigation-links li {
+  font-size: 14px;
+}
+
+.header-logo {
+  line-height: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  gap: 10px;
+}
+
+.header-title {
+  font-family: var(--banner-font-family);
+  font-weight: 700;
+  line-height: 80px;
+  font-size: 72px;
+}
+
+.header-subtitle {
+  line-height: 24px;
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
