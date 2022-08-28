@@ -100,3 +100,27 @@ blockquote {
 blockquote p {
   display: inline;
 }
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.post-card img {
+  border-radius: 10px;
+}
+
+.post-card h6 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.post-name {
+  color: var(--accent-color-dark);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 20px;
+}
