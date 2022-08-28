@@ -90,7 +90,6 @@ body > main {
 }
 
 main > aside {
-  background-color: bisque;
   grid-area: aside;
 }
 

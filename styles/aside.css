@@ -1,0 +1,53 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.aside section {
+  border: 1px solid var(--accent-color);
+  padding: 20px;
+}
+
+.aside header {
+  margin: 15px 0;
+}
+
+.aside hr {
+  border-top: 1px solid 
+  rgba(16, 68, 255, 0.3);
+}
+
+.categories-section {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.recent-post-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.recent-post-section figure {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.recent-post-section img {
+  border-radius: 10px;
+}
+
+.recent-post-section figcaption > :first-child {
+  color: var(--font-fade-color);
+  line-height: var(--font-fade-line-height);
+  font-size: var(--font-fade-size);
+}
+
+.tags-section ul {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
