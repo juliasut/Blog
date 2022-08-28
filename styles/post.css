@@ -26,6 +26,10 @@ article > main {
   font-size: var(--font-fade-size);
 }
 
+.figcaption > p {
+  margin-top: 20px;
+}
+
 .button-display {
   display: flex;
   gap: 10px;
@@ -46,4 +50,14 @@ article > main {
   align-items: center;
   font-weight: 700;
   color: var(--accent-color-dark);
+}
+
+.bullet-point-list {
+  padding-left: 15px;
+  list-style-type: disc;
+  color: var(--accent-color);
+}
+
+.bullet-point-list p {
+  color: var(--font-main-color);
 }
